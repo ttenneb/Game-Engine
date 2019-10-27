@@ -49,7 +49,7 @@ public class Engine implements Runnable{
         return w;
     }
     private boolean render = false;
-    public  double UPDATE = 1/180.0;
+    public  double UPDATE = 1/60.0;
     private Thread thread;
     public void start() throws IOException
     {
